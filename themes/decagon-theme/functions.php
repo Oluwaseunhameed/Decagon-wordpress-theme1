@@ -30,6 +30,23 @@ function dec_tag_manager_async($tag, $handle, $src)
 
 add_filter('script_loader_tag', 'dec_tag_manager_async', 10, 3);
 
+function my_walker_nav_menu_start_el($item_output, $item, $depth, $args)
+{
+
+  $pos = stripos($item_output, ">");
+  $str = rtrim(substr($item_output, $pos + 1), '</a>');
+  $str = trim($str);
+  if ($str === 'Get Started') {
+    $classes = 'nav-link nav-btn';
+  } else {
+    $classes = 'nav-link';
+  }
+
+  $item_output = preg_replace('/<a /', '<a class="' . $classes . '"', $item_output, 1);
+  return $item_output;
+}
+add_filter('walker_nav_menu_start_el', 'my_walker_nav_menu_start_el', 10, 4);
+
 function dec_misc_files()
 {
   echo '
@@ -53,7 +70,23 @@ function dec_features()
   // register_nav_menu('headerMenuLocation', 'Header Menu Location');
   // register_nav_menu('footerLocationMenuOne', 'Footer Menu One');
   // register_nav_menu('footerLocationMenuTwo', 'Footer Menu Two');
+  $arg = [
+    'default-image' => esc_url(get_theme_file_uri('/img/hero.jpg')),
+    'header-text' => true,
+    'default-text-color' => '000',
+    'random-default' => false,
+    'uploads'       => true,
+    'admin-head-callback' => 'adminhead_cb',
+    'admin-preview-callback' => 'adminpreview_cb',
+    'width' => 1920,
+    'height' => 1279,
+    'flex-width' => true,
+    'flex-height' => true,
+  ];
+  register_nav_menu('header-menu', 'Header Menu');
+  add_theme_support('custom-header', $arg);
   add_theme_support('title-tag');
+  add_theme_support('custom-logo');
 }
 
 add_action('after_setup_theme', 'dec_features');
