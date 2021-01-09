@@ -8,30 +8,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hire software engineering talent | DecagonHQ.com</title>
-  <meta name="description" content="Decagon trains software engineers in fullstack Javascript (Node JS/React JS), C# (.NET Core), Java ( Spring framework), Mobile app development (React Native) in Nigeria. We build high-performing engineering teams that are agile, work ready and outcome-oriented. Find and hire verified Nigerian software engineers to join your team full-time or remotely." />
-  <meta property="og:title" content="Hire software engineering talent | Decagonhq.com" />
-  <meta property="og:url" content="https://decagonhq.com/" />
-  <meta property="og:description" content="Decagon trains software engineers in fullstack Javascript (Node JS/React JS), C# (.NET Core), Java ( Spring framework), Mobile app development (React Native) in Nigeria. We build high-performing engineering teams that are agile, work ready and outcome-oriented. Find and hire verified Nigerian software engineers to join your team full-time or remotely." />
-  <meta property="og:type" content="article" />
+
   <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-touch-icon-72x72.png" />
   <link rel="apple-touch-icon" href="assets/img/favicons/apple-touch-icon.png" />
   <link rel="shortcut icon" href="assets/img/favicons/favicon.png" type="image/x-icon" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./assets/css/style.min.css" />
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167189023-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-167189023-1');
-  </script>
 </head>
 
 <body>
@@ -453,10 +434,6 @@
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
-  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
